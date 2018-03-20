@@ -272,6 +272,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RoleO_0000027 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RoleO_0000027">
+        <rdfs:label xml:lang="en">WikiData ID</rdfs:label>
+        <obo:IAO_0000115>An annotation property that represents a corresponding Wiki identifier.</obo:IAO_0000115>
+        <obo:IAO_0000117>OH, SS</obo:IAO_0000117>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ro/subsets#ro-eco -->
 
     <owl:AnnotationProperty rdf:about="&obo;ro/subsets#ro-eco">
@@ -814,6 +824,26 @@
     <owl:Class rdf:about="&obo;RoleO_0000025">
         <rdfs:label>supplier</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RoleO_0000028 -->
+
+    <owl:Class rdf:about="&obo;RoleO_0000028">
+        <rdfs:label xml:lang="en">entrepreneur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0111011"/>
+        <obo:RoleO_0000027>Q131524</obo:RoleO_0000027>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RoleO_0000029 -->
+
+    <owl:Class rdf:about="&obo;RoleO_0000029">
+        <rdfs:label xml:lang="en">business executive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0111011"/>
+        <obo:RoleO_0000027>Q2961975</obo:RoleO_0000027>
     </owl:Class>
     
 
@@ -8784,8 +8814,8 @@
     <owl:Class rdf:about="&obo;RoleO_0119141">
         <rdfs:label>property, real estate, and community association manager</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0119140"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>11-9141</obo:RoleO_0000026>
     </owl:Class>
     
@@ -13896,8 +13926,8 @@
     <owl:Class rdf:about="&obo;RoleO_0273020">
         <rdfs:label>news analyst, reporters and journalist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0273000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>27-3020</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -17331,6 +17361,7 @@
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>39-5011</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000027>Q107198</obo:RoleO_0000027>
     </owl:Class>
     
 
@@ -21901,8 +21932,8 @@
         <rdfs:label>helpers--installation, maintenance, and repair worker</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0499090"/>
         <obo:RoleO_0000026>49-9098</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -22932,8 +22963,8 @@
     <owl:Class rdf:about="&obo;RoleO_0516050">
         <rdfs:label>tailor, dressmaker, and sewer</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0516000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-6050</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -23497,8 +23528,8 @@
         <rdfs:label>mixing and blending machine setter, operator, and tender</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0519020"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>51-9023</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>51-9023</obo:RoleO_0000026>
     </owl:Class>
     
 
@@ -24265,8 +24296,8 @@
         <rdfs:label>bus driver, transit and intercity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0533050"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>53-3052</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>53-3052</obo:RoleO_0000026>
     </owl:Class>
     
 
@@ -25422,8 +25453,8 @@
         <dc:contributor>Chris Mungall</dc:contributor>
         <dc:contributor>Thomas Bittner</dc:contributor>
         <dc:contributor>Barry Smith</dc:contributor>
-        <dc:contributor>Jonathan Bona</dc:contributor>
         <dc:contributor>Ron Rudnicki</dc:contributor>
+        <dc:contributor>Jonathan Bona</dc:contributor>
         <dc:contributor>Alan Ruttenberg</dc:contributor>
         <dc:contributor>Ludger Jansen</dc:contributor>
         <rdfs:comment xml:lang="en">The http://purl.obolibary.org/obo/bfo/classes-only.owl variant of BFO (&quot;bfo_classes_only.owl&quot;) includes only the class hierarchy and annotations from the full OWL version of BFO 2: http://purl.obolibary.org/obo/bfo.owl (&quot;bfo.owl&quot;). There are no object properties or logical axioms that use the object properties in bfo_classes_only.owl. As the logical axioms in the bfo_classes_only.owl variant are limited to subclass and disjoint assertions they are much weaker than the logical axioms in bfo.owl.
