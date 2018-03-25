@@ -1965,7 +1965,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0171021 -->
 
     <owl:Class rdf:about="&obo;RoleO_0171021">
-        <rdfs:label>cartographers and photogrammetrist</rdfs:label>
+        <rdfs:label>cartographer and photogrammetrist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0171020"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>17-1021</obo:RoleO_0000026>

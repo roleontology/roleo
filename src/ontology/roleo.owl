@@ -24,12 +24,12 @@
     <owl:Ontology rdf:about="&obo;roleo.owl">
         <dc:creator>Sam Smith</dc:creator>
         <dc:creator>Edison Ong</dc:creator>
-        <dc:date>2018-03-20</dc:date>
+        <dc:date>2018-03-24</dc:date>
         <dc:subject xml:lang="en">An ontology in the domain of roles</dc:subject>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">RoleO: Role Ontology</dc:title>
         <dc:description xml:lang="en">The Role Ontology (RoleO) is a ontology in the domain of role classification. RoleO aims to standardize role classification and support computer-assisted reasoning.  RoleO is a community-based ontology, and its development follows the OBO Foundry principles.</dc:description>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.15</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.16</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <owl:imports rdf:resource="&obo;SOC_detailedGroup.owl"/>
         <owl:imports rdf:resource="&obo;broadsoc.owl"/>
@@ -331,7 +331,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000019">
         <rdfs:label>predator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -340,7 +340,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000020">
         <rdfs:label>prey</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -349,7 +349,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000021">
         <rdfs:label>pollinator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -358,7 +358,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000022">
         <rdfs:label>mate</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -367,7 +367,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000023">
         <rdfs:label>customer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -376,7 +376,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000024">
         <rdfs:label>friend</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -386,6 +386,14 @@
     <owl:Class rdf:about="&obo;RoleO_0000025">
         <rdfs:label>supplier</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RoleO_0000027 -->
+
+    <owl:Class rdf:about="&obo;RoleO_0000027">
+        <rdfs:label xml:lang="en">Obsolete</rdfs:label>
     </owl:Class>
     
 
@@ -422,7 +430,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000036">
         <rdfs:label>occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
         <rdfs:comment>This occupation ontology, as part of RoleO, is developed by referencing the USA 2018 Standard Occupational Classification (SOC) system, which classifies workers into one of 867 detailed occupations according to their occupational definition (https://www.bls.gov/soc/).</rdfs:comment>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -546,7 +554,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000047">
         <rdfs:label>animator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271014"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Animator</rdfs:seeAlso>
     </owl:Class>
@@ -612,7 +620,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000053">
         <rdfs:label>artist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000027"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Artist</rdfs:seeAlso>
     </owl:Class>
@@ -2710,7 +2718,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000243">
         <rdfs:label>illustrator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Illustrator</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -4203,7 +4211,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000378">
         <rdfs:label>painter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Painting</rdfs:seeAlso>
         <rdfs:comment>Painting</rdfs:comment>
@@ -5326,7 +5334,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000480">
         <rdfs:label>sculptor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Sculptor</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -5879,7 +5887,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000530">
         <rdfs:label>system administrator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000041"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/System_Administrator</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -6413,7 +6421,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000578">
         <rdfs:label>voice actor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0272011"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Voice_Actor</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -7694,7 +7702,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0270000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0270000">
-        <rdfs:label xml:lang="en">arts, design, entertainment, sports, and media occupation</rdfs:label>
+        <rdfs:label xml:lang="en">art, design, entertainment, sports, and media occupation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
         <obo:RoleO_0000026>27-0000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>

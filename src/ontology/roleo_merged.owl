@@ -27,13 +27,13 @@
      xmlns:subsets="&obo;ro/subsets#">
     <owl:Ontology rdf:about="&obo;roleo.owl">
         <dc:creator>Sam Smith</dc:creator>
-        <owl:versionInfo xml:lang="en">1.0.16</owl:versionInfo>
         <dc:creator>Edison Ong</dc:creator>
-        <dc:date>2018-03-20</dc:date>
+        <dc:date>2018-03-24</dc:date>
         <dc:subject xml:lang="en">An ontology in the domain of roles</dc:subject>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">RoleO: Role Ontology</dc:title>
         <dc:description xml:lang="en">The Role Ontology (RoleO) is a ontology in the domain of role classification. RoleO aims to standardize role classification and support computer-assisted reasoning.  RoleO is a community-based ontology, and its development follows the OBO Foundry principles.</dc:description>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.16</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
     </owl:Ontology>
     
@@ -268,16 +268,6 @@
         <rdfs:label>social role</rdfs:label>
         <obo:IAO_0000117>OH</obo:IAO_0000117>
         <obo:IAO_0000115>An annotation property that represents the identifier of an occupation assigned by the Standard Occupational Classification (SOC) system (https://www.bls.gov/soc/).</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RoleO_0000027 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RoleO_0000027">
-        <rdfs:label xml:lang="en">WikiData ID</rdfs:label>
-        <obo:IAO_0000115>An annotation property that represents a corresponding Wiki identifier.</obo:IAO_0000115>
-        <obo:IAO_0000117>OH, SS</obo:IAO_0000117>
     </owl:AnnotationProperty>
     
 
@@ -769,7 +759,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000019">
         <rdfs:label>predator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -778,7 +768,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000020">
         <rdfs:label>prey</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -787,7 +777,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000021">
         <rdfs:label>pollinator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000002"/>
     </owl:Class>
     
 
@@ -796,7 +786,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000022">
         <rdfs:label>mate</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -805,7 +795,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000023">
         <rdfs:label>customer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -814,7 +804,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000024">
         <rdfs:label>friend</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
     </owl:Class>
     
 
@@ -828,22 +818,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RoleO_0000028 -->
+    <!-- http://purl.obolibrary.org/obo/RoleO_0000027 -->
 
-    <owl:Class rdf:about="&obo;RoleO_0000028">
-        <rdfs:label xml:lang="en">entrepreneur</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0111011"/>
-        <obo:RoleO_0000027>Q131524</obo:RoleO_0000027>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RoleO_0000029 -->
-
-    <owl:Class rdf:about="&obo;RoleO_0000029">
-        <rdfs:label xml:lang="en">business executive</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0111011"/>
-        <obo:RoleO_0000027>Q2961975</obo:RoleO_0000027>
+    <owl:Class rdf:about="&obo;RoleO_0000027">
+        <rdfs:label xml:lang="en">Obsolete</rdfs:label>
     </owl:Class>
     
 
@@ -880,7 +858,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000036">
         <rdfs:label>occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000001"/>
         <rdfs:comment>This occupation ontology, as part of RoleO, is developed by referencing the USA 2018 Standard Occupational Classification (SOC) system, which classifies workers into one of 867 detailed occupations according to their occupational definition (https://www.bls.gov/soc/).</rdfs:comment>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -1004,7 +982,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000047">
         <rdfs:label>animator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271014"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Animator</rdfs:seeAlso>
     </owl:Class>
@@ -1070,7 +1048,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000053">
         <rdfs:label>artist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000027"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Artist</rdfs:seeAlso>
     </owl:Class>
@@ -3168,7 +3146,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000243">
         <rdfs:label>illustrator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Illustrator</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -4661,7 +4639,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000378">
         <rdfs:label>painter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Painting</rdfs:seeAlso>
         <rdfs:comment>Painting</rdfs:comment>
@@ -5784,7 +5762,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000480">
         <rdfs:label>sculptor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0271013"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Sculptor</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -6337,7 +6315,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000530">
         <rdfs:label>system administrator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000041"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/System_Administrator</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -6871,7 +6849,7 @@
 
     <owl:Class rdf:about="&obo;RoleO_0000578">
         <rdfs:label>voice actor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0272011"/>
         <rdfs:seeAlso>http://www.wikipedia.org/wiki/Voice_Actor</rdfs:seeAlso>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
     </owl:Class>
@@ -8814,8 +8792,8 @@
     <owl:Class rdf:about="&obo;RoleO_0119141">
         <rdfs:label>property, real estate, and community association manager</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0119140"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>11-9141</obo:RoleO_0000026>
     </owl:Class>
     
@@ -10156,7 +10134,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0171020 -->
 
     <owl:Class rdf:about="&obo;RoleO_0171020">
-        <rdfs:label>surveyors, cartographers, and photogrammetrists</rdfs:label>
+        <rdfs:label>surveyor, cartographer, and photogrammetrist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0171000"/>
         <obo:RoleO_0000026>17-1020</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -10168,7 +10146,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0171021 -->
 
     <owl:Class rdf:about="&obo;RoleO_0171021">
-        <rdfs:label>cartographers and photogrammetrist</rdfs:label>
+        <rdfs:label>cartographer and photogrammetrist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0171020"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>17-1021</obo:RoleO_0000026>
@@ -10612,7 +10590,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0173000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0173000">
-        <rdfs:label>drafters, engineering technician, and mapping technician</rdfs:label>
+        <rdfs:label>drafter, engineering technician, and mapping technician</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0170000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>17-3000</obo:RoleO_0000026>
@@ -13480,7 +13458,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0270000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0270000">
-        <rdfs:label xml:lang="en">arts, design, entertainment, sports, and media occupation</rdfs:label>
+        <rdfs:label xml:lang="en">art, design, entertainment, sports, and media occupation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0000036"/>
         <obo:RoleO_0000026>27-0000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -13926,8 +13904,8 @@
     <owl:Class rdf:about="&obo;RoleO_0273020">
         <rdfs:label>news analyst, reporters and journalist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0273000"/>
-        <obo:RoleO_0000026>27-3020</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>27-3020</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -17361,7 +17339,6 @@
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>39-5011</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000027>Q107198</obo:RoleO_0000027>
     </owl:Class>
     
 
@@ -21932,8 +21909,8 @@
         <rdfs:label>helpers--installation, maintenance, and repair worker</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0499090"/>
         <obo:RoleO_0000026>49-9098</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -22963,8 +22940,8 @@
     <owl:Class rdf:about="&obo;RoleO_0516050">
         <rdfs:label>tailor, dressmaker, and sewer</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0516000"/>
-        <obo:RoleO_0000026>51-6050</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>51-6050</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -23528,8 +23505,8 @@
         <rdfs:label>mixing and blending machine setter, operator, and tender</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0519020"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-9023</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -24296,8 +24273,8 @@
         <rdfs:label>bus driver, transit and intercity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0533050"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>53-3052</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -25453,8 +25430,8 @@
         <dc:contributor>Chris Mungall</dc:contributor>
         <dc:contributor>Thomas Bittner</dc:contributor>
         <dc:contributor>Barry Smith</dc:contributor>
-        <dc:contributor>Ron Rudnicki</dc:contributor>
         <dc:contributor>Jonathan Bona</dc:contributor>
+        <dc:contributor>Ron Rudnicki</dc:contributor>
         <dc:contributor>Alan Ruttenberg</dc:contributor>
         <dc:contributor>Ludger Jansen</dc:contributor>
         <rdfs:comment xml:lang="en">The http://purl.obolibary.org/obo/bfo/classes-only.owl variant of BFO (&quot;bfo_classes_only.owl&quot;) includes only the class hierarchy and annotations from the full OWL version of BFO 2: http://purl.obolibary.org/obo/bfo.owl (&quot;bfo.owl&quot;). There are no object properties or logical axioms that use the object properties in bfo_classes_only.owl. As the logical axioms in the bfo_classes_only.owl variant are limited to subclass and disjoint assertions they are much weaker than the logical axioms in bfo.owl.

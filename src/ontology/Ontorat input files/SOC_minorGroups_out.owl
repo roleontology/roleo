@@ -1,15 +1,29 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/minorGroups.owl#"
-     xml:base="http://purl.obolibrary.org/obo/minorGroups.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY subsets "http://purl.obolibrary.org/obo/ro/subsets#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;minorGroups.owl#"
+     xml:base="&obo;minorGroups.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/minorGroups.owl"/>
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="&obo;ro/subsets#">
+    <owl:Ontology rdf:about="&obo;minorGroups.owl"/>
     
 
 
@@ -26,7 +40,7 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+    <owl:AnnotationProperty rdf:about="&obo;BFO_0000179">
         <rdfs:label>BFO OWL specification label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -34,7 +48,7 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+    <owl:AnnotationProperty rdf:about="&obo;BFO_0000180">
         <rdfs:label>BFO CLIF specification label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -42,7 +56,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
         <rdfs:label>editor preferred label</rdfs:label>
@@ -52,7 +66,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
         <rdfs:label>example of usage</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -60,7 +74,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114">
         <rdfs:label>has curation status</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -68,7 +82,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
         <rdfs:label>textual definition</rdfs:label>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
@@ -77,7 +91,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
         <rdfs:label>editor note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -85,16 +99,16 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label>definition editor</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
+        <rdfs:label>definition editor</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
         <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -102,7 +116,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -110,16 +124,16 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
-        <rdfs:label>curator notes</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
+        <rdfs:label>curator notes</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
         <rdfs:label>imported from</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -127,7 +141,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000600">
         <rdfs:label>elucidation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -135,7 +149,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000601">
         <rdfs:label>has associated axiom(nl)</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -143,7 +157,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000602">
         <rdfs:label>has associated axiom(fol)</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -151,16 +165,16 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
-        <rdfs:label>has axiom label</rdfs:label>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0010000">
         <rdfs:label>axiom id</rdfs:label>
+        <rdfs:label>has axiom label</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000091 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000091">
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000091">
         <rdfs:label>term_mapping_to_UMLS</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -168,7 +182,7 @@
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000092 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000092">
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000092">
         <rdfs:label>term_mapping_to_NCIT</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -176,7 +190,7 @@
 
     <!-- http://purl.obolibrary.org/obo/ICO_0000093 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ICO_0000093">
+    <owl:AnnotationProperty rdf:about="&obo;ICO_0000093">
         <rdfs:label>term_mapping_to_HL7v3</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -184,7 +198,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0001847">
         <rdfs:label>ISA alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -192,7 +206,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001886 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001886">
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0001886">
         <rdfs:label>NIAID GSCID-BRC alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -200,7 +214,7 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
+    <owl:AnnotationProperty rdf:about="&obo;RO_0001900">
         <rdfs:label>temporal interpretation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -208,13 +222,13 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0000026 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RoleO_0000026"/>
+    <owl:AnnotationProperty rdf:about="&obo;RoleO_0000026"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ro/subsets#ro-eco -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ro/subsets#ro-eco">
+    <owl:AnnotationProperty rdf:about="&obo;ro/subsets#ro-eco">
         <rdfs:label>eco subset</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -222,7 +236,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+    <owl:AnnotationProperty rdf:about="&dc;contributor">
         <rdfs:label>Contributor</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -230,7 +244,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <owl:AnnotationProperty rdf:about="&dc;creator">
         <rdfs:label>Creator</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -238,7 +252,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+    <owl:AnnotationProperty rdf:about="&dc;date">
         <rdfs:label>Date</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -246,7 +260,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+    <owl:AnnotationProperty rdf:about="&dc;description">
         <rdfs:label>Description</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -254,7 +268,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/format -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+    <owl:AnnotationProperty rdf:about="&dc;format">
         <rdfs:label>Format</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -262,7 +276,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/source -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
+    <owl:AnnotationProperty rdf:about="&dc;source">
         <rdfs:label>Source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -270,7 +284,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/subject -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
+    <owl:AnnotationProperty rdf:about="&dc;subject">
         <rdfs:label>Subject and Keywords</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -278,7 +292,7 @@
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+    <owl:AnnotationProperty rdf:about="&dc;title">
         <rdfs:label>Title</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -286,7 +300,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
         <rdfs:label>database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -294,7 +308,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
         <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -302,7 +316,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
         <rdfs:label>in_subset</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -310,7 +324,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+    <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand">
         <rdfs:label>shorthand</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -318,13 +332,13 @@
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <owl:AnnotationProperty rdf:about="&rdfs;label">
         <rdfs:label>label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -332,7 +346,7 @@
 
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;seeAlso"/>
     
 
 
@@ -349,37 +363,37 @@
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    <rdfs:Datatype rdf:about="&rdf;PlainLiteral"/>
     
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:Datatype rdf:about="&rdfs;Literal"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#float -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:Datatype rdf:about="&xsd;float"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#integer -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:Datatype rdf:about="&xsd;integer"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:Datatype rdf:about="&xsd;nonNegativeInteger"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#string -->
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:Datatype rdf:about="&xsd;string"/>
     
 
 
@@ -396,27 +410,27 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0110000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0110000"/>
+    <owl:Class rdf:about="&obo;RoleO_0110000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0111000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0111000">
+    <owl:Class rdf:about="&obo;RoleO_0111000">
         <rdfs:label>top executive</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0110000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0110000"/>
         <obo:RoleO_0000026>11-1000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0112000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0112000">
+    <owl:Class rdf:about="&obo;RoleO_0112000">
         <rdfs:label>advertising, marketing, promotions, public relations, and sales manager</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0110000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0110000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>11-2000</obo:RoleO_0000026>
@@ -426,41 +440,41 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0113000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0113000">
+    <owl:Class rdf:about="&obo;RoleO_0113000">
         <rdfs:label>operations specialties manager</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0110000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0110000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>11-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>11-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0119000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0119000">
+    <owl:Class rdf:about="&obo;RoleO_0119000">
         <rdfs:label>other management occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0110000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0110000"/>
         <obo:RoleO_0000026>11-9000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0130000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0130000"/>
+    <owl:Class rdf:about="&obo;RoleO_0130000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0131000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0131000">
+    <owl:Class rdf:about="&obo;RoleO_0131000">
         <rdfs:label>business operations specialist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0130000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0130000"/>
         <obo:RoleO_0000026>13-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
@@ -468,179 +482,179 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0132000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0132000">
+    <owl:Class rdf:about="&obo;RoleO_0132000">
         <rdfs:label>financial specialist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0130000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>13-2000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0130000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>13-2000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0150000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0150000"/>
+    <owl:Class rdf:about="&obo;RoleO_0150000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0151200 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0151200">
+    <owl:Class rdf:about="&obo;RoleO_0151200">
         <rdfs:label>computer occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0150000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0150000"/>
         <obo:RoleO_0000026>15-1200</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0152000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0152000">
+    <owl:Class rdf:about="&obo;RoleO_0152000">
         <rdfs:label>mathematical science occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0150000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0150000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>15-2000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>15-2000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0170000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0170000"/>
+    <owl:Class rdf:about="&obo;RoleO_0170000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0171000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0171000">
+    <owl:Class rdf:about="&obo;RoleO_0171000">
         <rdfs:label>architect, surveyor, and cartographer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0170000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0170000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>17-1000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0172000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0172000">
+    <owl:Class rdf:about="&obo;RoleO_0172000">
         <rdfs:label>engineer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0170000"/>
-        <obo:RoleO_0000026>17-2000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0170000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>17-2000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0173000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0173000">
-        <rdfs:label>drafters, engineering technician, and mapping technician</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0170000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>17-3000</obo:RoleO_0000026>
+    <owl:Class rdf:about="&obo;RoleO_0173000">
+        <rdfs:label>drafter, engineering technician, and mapping technician</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0170000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>17-3000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0190000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0190000"/>
+    <owl:Class rdf:about="&obo;RoleO_0190000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0191000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0191000">
+    <owl:Class rdf:about="&obo;RoleO_0191000">
         <rdfs:label>life scientist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0190000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0190000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>19-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0192000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0192000">
+    <owl:Class rdf:about="&obo;RoleO_0192000">
         <rdfs:label>physical scientist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0190000"/>
-        <obo:RoleO_0000026>19-2000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0190000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>19-2000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0193000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0193000">
+    <owl:Class rdf:about="&obo;RoleO_0193000">
         <rdfs:label>social scientists and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0190000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0190000"/>
+        <obo:RoleO_0000026>19-3000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>19-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0194000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0194000">
+    <owl:Class rdf:about="&obo;RoleO_0194000">
         <rdfs:label>life, physical, and social science technician</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0190000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0190000"/>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>19-4000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0195000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0195000">
+    <owl:Class rdf:about="&obo;RoleO_0195000">
         <rdfs:label>occupational health and safety specialist and technician</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0190000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0190000"/>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>19-5000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0210000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0210000"/>
+    <owl:Class rdf:about="&obo;RoleO_0210000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0211000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0211000">
+    <owl:Class rdf:about="&obo;RoleO_0211000">
         <rdfs:label>counselor, social worker, and other community and social service specialist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0210000"/>
-        <obo:RoleO_0000026>21-1000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0210000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>21-1000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0212000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0212000">
+    <owl:Class rdf:about="&obo;RoleO_0212000">
         <rdfs:label>religious worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0210000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0210000"/>
         <obo:RoleO_0000026>21-2000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -648,27 +662,27 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0230000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0230000"/>
+    <owl:Class rdf:about="&obo;RoleO_0230000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0231000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0231000">
+    <owl:Class rdf:about="&obo;RoleO_0231000">
         <rdfs:label>lawyers, Judges, and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0230000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>23-1000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0230000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>23-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0232000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0232000">
+    <owl:Class rdf:about="&obo;RoleO_0232000">
         <rdfs:label>legal support worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0230000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0230000"/>
         <obo:RoleO_0000026>23-2000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -678,17 +692,17 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0250000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0250000"/>
+    <owl:Class rdf:about="&obo;RoleO_0250000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0251000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0251000">
+    <owl:Class rdf:about="&obo;RoleO_0251000">
         <rdfs:label>postsecondary teachers</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0250000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>25-1000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -696,47 +710,47 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0252000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0252000">
+    <owl:Class rdf:about="&obo;RoleO_0252000">
         <rdfs:label>preschool, elementary, middle, secondary, and special education teachers</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0250000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>25-2000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0253000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0253000">
+    <owl:Class rdf:about="&obo;RoleO_0253000">
         <rdfs:label>other teachers and instructor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0250000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>25-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>25-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0254000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0254000">
+    <owl:Class rdf:about="&obo;RoleO_0254000">
         <rdfs:label>librarian, curator, and archivist</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0250000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>25-4000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0259000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0259000">
+    <owl:Class rdf:about="&obo;RoleO_0259000">
         <rdfs:label>other educational Instruction and library occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0250000"/>
-        <obo:RoleO_0000026>25-9000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>25-9000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
@@ -744,15 +758,15 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0270000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0270000"/>
+    <owl:Class rdf:about="&obo;RoleO_0270000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0271000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0271000">
+    <owl:Class rdf:about="&obo;RoleO_0271000">
         <rdfs:label>art and design worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0270000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0270000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>27-1000</obo:RoleO_0000026>
@@ -762,33 +776,33 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0272000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0272000">
+    <owl:Class rdf:about="&obo;RoleO_0272000">
         <rdfs:label>entertainers and performers, sports and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0270000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0270000"/>
         <obo:RoleO_0000026>27-2000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0273000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0273000">
+    <owl:Class rdf:about="&obo;RoleO_0273000">
         <rdfs:label>media and communication worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0270000"/>
-        <obo:RoleO_0000026>27-3000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0270000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>27-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0274000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0274000">
+    <owl:Class rdf:about="&obo;RoleO_0274000">
         <rdfs:label>media and communication equipment worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0270000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0270000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>27-4000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -798,29 +812,29 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0290000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0290000"/>
+    <owl:Class rdf:about="&obo;RoleO_0290000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0291000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0291000">
+    <owl:Class rdf:about="&obo;RoleO_0291000">
         <rdfs:label>healthcare diagnosing or treating practitioner</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0290000"/>
-        <obo:RoleO_0000026>29-1000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0290000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>29-1000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0292000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0292000">
+    <owl:Class rdf:about="&obo;RoleO_0292000">
         <rdfs:label>health technologists and technician</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0290000"/>
-        <obo:RoleO_0000026>29-2000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0290000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>29-2000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
@@ -828,53 +842,53 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0299000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0299000">
+    <owl:Class rdf:about="&obo;RoleO_0299000">
         <rdfs:label>other healthcare practitioner and technical occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0290000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0290000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>29-9000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0310000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0310000"/>
+    <owl:Class rdf:about="&obo;RoleO_0310000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0311100 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0311100">
+    <owl:Class rdf:about="&obo;RoleO_0311100">
         <rdfs:label>home health and personal care aide; and nursing assistant, orderlies, and psychiatric aide</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0310000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0310000"/>
         <obo:RoleO_0000026>31-1100</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0312000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0312000">
+    <owl:Class rdf:about="&obo;RoleO_0312000">
         <rdfs:label>occupational therapy and physical therapist assistant and aide</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0310000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0310000"/>
         <obo:RoleO_0000026>31-2000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0319000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0319000">
+    <owl:Class rdf:about="&obo;RoleO_0319000">
         <rdfs:label>other healthcare support occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0310000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0310000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>31-9000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -882,29 +896,29 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0330000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0330000"/>
+    <owl:Class rdf:about="&obo;RoleO_0330000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0331000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0331000">
+    <owl:Class rdf:about="&obo;RoleO_0331000">
         <rdfs:label>supervisor of protective service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0330000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0330000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>33-1000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0332000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0332000">
+    <owl:Class rdf:about="&obo;RoleO_0332000">
         <rdfs:label>firefighting and prevention worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0330000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0330000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>33-2000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -912,11 +926,11 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0333000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0333000">
+    <owl:Class rdf:about="&obo;RoleO_0333000">
         <rdfs:label>law enforcement worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0330000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0330000"/>
         <obo:RoleO_0000026>33-3000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -924,27 +938,27 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0339000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0339000">
+    <owl:Class rdf:about="&obo;RoleO_0339000">
         <rdfs:label>other protective service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0330000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>33-9000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0330000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>33-9000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0350000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0350000"/>
+    <owl:Class rdf:about="&obo;RoleO_0350000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0351000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0351000">
+    <owl:Class rdf:about="&obo;RoleO_0351000">
         <rdfs:label>supervisor of food preparation and serving worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0350000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0350000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>35-1000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -954,51 +968,51 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0352000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0352000">
+    <owl:Class rdf:about="&obo;RoleO_0352000">
         <rdfs:label>cooks and food preparation worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0350000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0350000"/>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>35-2000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0353000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0353000">
+    <owl:Class rdf:about="&obo;RoleO_0353000">
         <rdfs:label>food and beverage serving worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0350000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0350000"/>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>35-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0359000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0359000">
+    <owl:Class rdf:about="&obo;RoleO_0359000">
         <rdfs:label>other food preparation and serving related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0350000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0350000"/>
         <obo:RoleO_0000026>35-9000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0370000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0370000"/>
+    <owl:Class rdf:about="&obo;RoleO_0370000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0371000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0371000">
+    <owl:Class rdf:about="&obo;RoleO_0371000">
         <rdfs:label>supervisor of building and grounds cleaning and maintenance worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0370000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0370000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>37-1000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -1008,39 +1022,39 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0372000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0372000">
+    <owl:Class rdf:about="&obo;RoleO_0372000">
         <rdfs:label>building cleaning and pest control worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0370000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0370000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>37-2000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>37-2000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0373000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0373000">
+    <owl:Class rdf:about="&obo;RoleO_0373000">
         <rdfs:label>grounds maintenance worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0370000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0370000"/>
+        <obo:RoleO_0000026>37-3000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>37-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0390000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0390000"/>
+    <owl:Class rdf:about="&obo;RoleO_0390000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0391000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0391000">
+    <owl:Class rdf:about="&obo;RoleO_0391000">
         <rdfs:label>supervisor of personal care and service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:RoleO_0000026>39-1000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -1050,135 +1064,135 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0392000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0392000">
+    <owl:Class rdf:about="&obo;RoleO_0392000">
         <rdfs:label>animal care and service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:RoleO_0000026>39-2000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>39-2000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0393000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0393000">
+    <owl:Class rdf:about="&obo;RoleO_0393000">
         <rdfs:label>entertainment attendants and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:RoleO_0000026>39-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0394000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0394000">
+    <owl:Class rdf:about="&obo;RoleO_0394000">
         <rdfs:label>funeral service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:RoleO_0000026>39-4000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>39-4000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0395000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0395000">
+    <owl:Class rdf:about="&obo;RoleO_0395000">
         <rdfs:label>personal appearance worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:RoleO_0000026>39-5000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>39-5000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0396000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0396000">
+    <owl:Class rdf:about="&obo;RoleO_0396000">
         <rdfs:label>baggage porters, bellhops, and concierges</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>39-6000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>39-6000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0397000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0397000">
+    <owl:Class rdf:about="&obo;RoleO_0397000">
         <rdfs:label>tour and travel guides</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>39-7000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>39-7000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0399000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0399000">
+    <owl:Class rdf:about="&obo;RoleO_0399000">
         <rdfs:label>other personal care and service worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0390000"/>
-        <obo:RoleO_0000026>39-9000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>39-9000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0410000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0410000"/>
+    <owl:Class rdf:about="&obo;RoleO_0410000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0411000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0411000">
+    <owl:Class rdf:about="&obo;RoleO_0411000">
         <rdfs:label>supervisor of sales worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0410000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0410000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>41-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0412000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0412000">
+    <owl:Class rdf:about="&obo;RoleO_0412000">
         <rdfs:label>retail sales worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0410000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0410000"/>
         <obo:RoleO_0000026>41-2000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0413000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0413000">
+    <owl:Class rdf:about="&obo;RoleO_0413000">
         <rdfs:label>sales representative, services</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0410000"/>
-        <obo:RoleO_0000026>41-3000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0410000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>41-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0414000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0414000">
+    <owl:Class rdf:about="&obo;RoleO_0414000">
         <rdfs:label>sales representative, wholesale and manufacturing</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0410000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0410000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>41-4000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -1188,65 +1202,65 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0419000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0419000">
+    <owl:Class rdf:about="&obo;RoleO_0419000">
         <rdfs:label>other sales and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0410000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0410000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>41-9000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0430000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0430000"/>
+    <owl:Class rdf:about="&obo;RoleO_0430000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0431000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0431000">
+    <owl:Class rdf:about="&obo;RoleO_0431000">
         <rdfs:label>supervisor of office and administrative support worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
-        <obo:RoleO_0000026>43-1000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>43-1000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0432000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0432000">
+    <owl:Class rdf:about="&obo;RoleO_0432000">
         <rdfs:label>communications equipment operator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>43-2000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0433000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0433000">
+    <owl:Class rdf:about="&obo;RoleO_0433000">
         <rdfs:label>financial clerk</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
-        <obo:RoleO_0000026>43-3000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>43-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0434000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0434000">
+    <owl:Class rdf:about="&obo;RoleO_0434000">
         <rdfs:label>Information and record clerk</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
-        <obo:RoleO_0000026>43-4000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>43-4000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
@@ -1254,89 +1268,89 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0435000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0435000">
+    <owl:Class rdf:about="&obo;RoleO_0435000">
         <rdfs:label>material recording, scheduling, dispatching, and distributing worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
+        <obo:RoleO_0000026>43-5000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>43-5000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0436000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0436000">
+    <owl:Class rdf:about="&obo;RoleO_0436000">
         <rdfs:label>secretaries and administrative assistant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>43-6000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>43-6000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0439000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0439000">
+    <owl:Class rdf:about="&obo;RoleO_0439000">
         <rdfs:label>other office and administrative support worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0430000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0430000"/>
         <obo:RoleO_0000026>43-9000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0450000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0450000"/>
+    <owl:Class rdf:about="&obo;RoleO_0450000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0451000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0451000">
+    <owl:Class rdf:about="&obo;RoleO_0451000">
         <rdfs:label>supervisor of farming, fishing, and forestry worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0450000"/>
-        <obo:RoleO_0000026>45-1000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0450000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>45-1000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0452000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0452000">
+    <owl:Class rdf:about="&obo;RoleO_0452000">
         <rdfs:label>agricultural worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0450000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0450000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>45-2000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0453000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0453000">
+    <owl:Class rdf:about="&obo;RoleO_0453000">
         <rdfs:label>fishing and hunting worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0450000"/>
-        <obo:RoleO_0000026>45-3000</obo:RoleO_0000026>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0450000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>45-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0454000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0454000">
+    <owl:Class rdf:about="&obo;RoleO_0454000">
         <rdfs:label>forest, conservation, and logging worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0450000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0450000"/>
         <obo:RoleO_0000026>45-4000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -1344,51 +1358,51 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0470000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0470000"/>
+    <owl:Class rdf:about="&obo;RoleO_0470000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0471000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0471000">
+    <owl:Class rdf:about="&obo;RoleO_0471000">
         <rdfs:label>supervisor of construction and extraction worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0470000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0470000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>47-1000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>47-1000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0472000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0472000">
+    <owl:Class rdf:about="&obo;RoleO_0472000">
         <rdfs:label>construction trades worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0470000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0470000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>47-2000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0473000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0473000">
+    <owl:Class rdf:about="&obo;RoleO_0473000">
         <rdfs:label>helper, construction trades</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0470000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0470000"/>
+        <obo:RoleO_0000026>47-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>47-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0474000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0474000">
+    <owl:Class rdf:about="&obo;RoleO_0474000">
         <rdfs:label>other construction and related worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0470000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0470000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>47-4000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -1398,29 +1412,29 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0475000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0475000">
+    <owl:Class rdf:about="&obo;RoleO_0475000">
         <rdfs:label>extraction worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0470000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0470000"/>
+        <obo:RoleO_0000026>47-5000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>47-5000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0490000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0490000"/>
+    <owl:Class rdf:about="&obo;RoleO_0490000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0491000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0491000">
+    <owl:Class rdf:about="&obo;RoleO_0491000">
         <rdfs:label>supervisor of Installation, maintenance, and repair worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0490000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0490000"/>
         <obo:RoleO_0000026>49-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
@@ -1428,9 +1442,9 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0492000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0492000">
+    <owl:Class rdf:about="&obo;RoleO_0492000">
         <rdfs:label>electrical and electronic equipment mechanics, Installers, and repairers</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0490000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0490000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>49-2000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -1440,23 +1454,23 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0493000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0493000">
+    <owl:Class rdf:about="&obo;RoleO_0493000">
         <rdfs:label>Vehicle and mobile equipment mechanics, Installers, and repairers</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0490000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>49-3000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0490000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>49-3000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0499000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0499000">
+    <owl:Class rdf:about="&obo;RoleO_0499000">
         <rdfs:label>other Installation, maintenance, and repair occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0490000"/>
-        <obo:RoleO_0000026>49-9000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0490000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>49-9000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -1464,29 +1478,29 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0510000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0510000"/>
+    <owl:Class rdf:about="&obo;RoleO_0510000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0511000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0511000">
+    <owl:Class rdf:about="&obo;RoleO_0511000">
         <rdfs:label>supervisor of production worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0512000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0512000">
+    <owl:Class rdf:about="&obo;RoleO_0512000">
         <rdfs:label>assembler and fabricator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-2000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -1494,71 +1508,71 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0513000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0513000">
+    <owl:Class rdf:about="&obo;RoleO_0513000">
         <rdfs:label>food processing worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:RoleO_0000026>51-3000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0514000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0514000">
+    <owl:Class rdf:about="&obo;RoleO_0514000">
         <rdfs:label>metal worker and plastic worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:RoleO_0000026>51-4000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>51-4000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0515100 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0515100">
+    <owl:Class rdf:about="&obo;RoleO_0515100">
         <rdfs:label>printing worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>51-5100</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>51-5100</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0516000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0516000">
+    <owl:Class rdf:about="&obo;RoleO_0516000">
         <rdfs:label>textile, apparel, and furnishings worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:RoleO_0000026>51-6000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:RoleO_0000026>51-6000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0517000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0517000">
+    <owl:Class rdf:about="&obo;RoleO_0517000">
         <rdfs:label>woodworker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-7000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0518000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0518000">
+    <owl:Class rdf:about="&obo;RoleO_0518000">
         <rdfs:label>plant and system operator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>51-8000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -1566,41 +1580,41 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0519000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0519000">
+    <owl:Class rdf:about="&obo;RoleO_0519000">
         <rdfs:label>other production occupation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0510000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>51-9000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0510000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>51-9000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0530000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0530000"/>
+    <owl:Class rdf:about="&obo;RoleO_0530000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0531000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0531000">
+    <owl:Class rdf:about="&obo;RoleO_0531000">
         <rdfs:label>supervisor of transportation and material moving worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:RoleO_0000026>53-1000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0532000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0532000">
+    <owl:Class rdf:about="&obo;RoleO_0532000">
         <rdfs:label>air transportation worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:RoleO_0000026>53-2000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>53-2000</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -1608,47 +1622,47 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0533000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0533000">
+    <owl:Class rdf:about="&obo;RoleO_0533000">
         <rdfs:label>motor Vehicle operator</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:RoleO_0000026>53-3000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>53-3000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0534000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0534000">
+    <owl:Class rdf:about="&obo;RoleO_0534000">
         <rdfs:label>rail transportation worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>53-4000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>53-4000</obo:RoleO_0000026>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0535000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0535000">
+    <owl:Class rdf:about="&obo;RoleO_0535000">
         <rdfs:label>water transportation worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
-        <obo:RoleO_0000026>53-5000</obo:RoleO_0000026>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:RoleO_0000026>53-5000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0536000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0536000">
+    <owl:Class rdf:about="&obo;RoleO_0536000">
         <rdfs:label>other transportation worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>53-6000</obo:RoleO_0000026>
     </owl:Class>
     
@@ -1656,29 +1670,29 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0537000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0537000">
+    <owl:Class rdf:about="&obo;RoleO_0537000">
         <rdfs:label>material moving worker</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0530000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0530000"/>
         <obo:RoleO_0000026>53-7000</obo:RoleO_0000026>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0550000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0550000"/>
+    <owl:Class rdf:about="&obo;RoleO_0550000"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0551000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0551000">
+    <owl:Class rdf:about="&obo;RoleO_0551000">
         <rdfs:label>military officer special and tactical operations leader</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0550000"/>
-        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0550000"/>
         <obo:RoleO_0000026>55-1000</obo:RoleO_0000026>
+        <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
@@ -1686,28 +1700,28 @@
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0552000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0552000">
+    <owl:Class rdf:about="&obo;RoleO_0552000">
         <rdfs:label>first-line enlisted military supervisor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0550000"/>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0550000"/>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>55-2000</obo:RoleO_0000026>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/RoleO_0553000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RoleO_0553000">
+    <owl:Class rdf:about="&obo;RoleO_0553000">
         <rdfs:label>military enlisted tactical operations and air/weapons specialist and crew member</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RoleO_0550000"/>
-        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="&obo;RoleO_0550000"/>
         <obo:RoleO_0000026>55-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
