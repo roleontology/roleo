@@ -29,7 +29,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">RoleO: Role Ontology</dc:title>
         <dc:description xml:lang="en">The Role Ontology (RoleO) is a ontology in the domain of role classification. RoleO aims to standardize role classification and support computer-assisted reasoning.  RoleO is a community-based ontology, and its development follows the OBO Foundry principles.</dc:description>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.16</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.17</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <owl:imports rdf:resource="&obo;SOC_detailedGroup.owl"/>
         <owl:imports rdf:resource="&obo;broadsoc.owl"/>
