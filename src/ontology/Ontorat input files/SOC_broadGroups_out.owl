@@ -1539,7 +1539,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0191030 -->
 
     <owl:Class rdf:about="&obo;RoleO_0191030">
-        <rdfs:label>conservation scientist and foresters</rdfs:label>
+        <rdfs:label>conservation scientist and forester</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0191000"/>
         <obo:RoleO_0000026>19-1030</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -2385,7 +2385,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0272020 -->
 
     <owl:Class rdf:about="&obo;RoleO_0272020">
-        <rdfs:label>athletes, coaches, umpires, and related worker</rdfs:label>
+        <rdfs:label>athlete, coach, umpire, and related worker</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0272000"/>
         <obo:RoleO_0000026>27-2020</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -2883,7 +2883,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0299090 -->
 
     <owl:Class rdf:about="&obo;RoleO_0299090">
-        <rdfs:label>miscellaneous health practitioners and technical worker</rdfs:label>
+        <rdfs:label>miscellaneous health practitioner and technical worker</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0299000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>29-9090</obo:RoleO_0000026>

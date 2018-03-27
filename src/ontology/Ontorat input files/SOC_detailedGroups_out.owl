@@ -2535,7 +2535,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0191021 -->
 
     <owl:Class rdf:about="&obo;RoleO_0191021">
-        <rdfs:label>biochemists and biophysicist</rdfs:label>
+        <rdfs:label>biochemist and biophysicist</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0191020"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:RoleO_0000026>19-1021</obo:RoleO_0000026>
@@ -4353,7 +4353,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0253099 -->
 
     <owl:Class rdf:about="&obo;RoleO_0253099">
-        <rdfs:label>teachers and instructor, all other</rdfs:label>
+        <rdfs:label>teacher and instructor, all other</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0253090"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>25-3099</obo:RoleO_0000026>
@@ -4965,7 +4965,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0273043 -->
 
     <owl:Class rdf:about="&obo;RoleO_0273043">
-        <rdfs:label>writers and author</rdfs:label>
+        <rdfs:label>writer and author</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0273040"/>
         <obo:RoleO_0000026>27-3043</obo:RoleO_0000026>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -6153,7 +6153,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0299099 -->
 
     <owl:Class rdf:about="&obo;RoleO_0299099">
-        <rdfs:label>healthcare practitioners and technical worker, all other</rdfs:label>
+        <rdfs:label>healthcare practitioner and technical worker, all other</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0299090"/>
         <obo:RoleO_0000026>29-9099</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -7095,7 +7095,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0372011 -->
 
     <owl:Class rdf:about="&obo;RoleO_0372011">
-        <rdfs:label>janitors and cleaner, except maids and housekeeping cleaner</rdfs:label>
+        <rdfs:label>janitor and cleaner, except maid and housekeeping cleaner</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0372010"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>

@@ -699,7 +699,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0251000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0251000">
-        <rdfs:label>postsecondary teachers</rdfs:label>
+        <rdfs:label>postsecondary teacher</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
@@ -711,7 +711,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0252000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0252000">
-        <rdfs:label>preschool, elementary, middle, secondary, and special education teachers</rdfs:label>
+        <rdfs:label>preschool, elementary, middle, secondary, and special education teacher</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -723,7 +723,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0253000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0253000">
-        <rdfs:label>other teachers and instructor</rdfs:label>
+        <rdfs:label>other teacher and instructor</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0250000"/>
         <obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -1077,7 +1077,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0393000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0393000">
-        <rdfs:label>entertainment attendants and related worker</rdfs:label>
+        <rdfs:label>entertainment attendant and related worker</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:RoleO_0000026>39-3000</obo:RoleO_0000026>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
@@ -1113,7 +1113,7 @@
     <!-- http://purl.obolibrary.org/obo/RoleO_0396000 -->
 
     <owl:Class rdf:about="&obo;RoleO_0396000">
-        <rdfs:label>baggage porters, bellhops, and concierges</rdfs:label>
+        <rdfs:label>baggage porter, bellhop, and concierge</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;RoleO_0390000"/>
         <obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
         <obo:RoleO_0000026>39-6000</obo:RoleO_0000026>
